@@ -13,7 +13,7 @@ const StyledButton = styled.a`
     text-align: center;
     text-decoration: none;
     transition: background-color .3s ease-in-out;
-    
+    width: fit-content;
     &:hover {
         cursor: pointer;
         background-color: #0D7AAF;
