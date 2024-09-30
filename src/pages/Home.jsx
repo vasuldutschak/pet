@@ -1,6 +1,10 @@
+import TakeCareSection from "../modules/take_care_section/TakeCareSection.jsx";
+
 function Home(props) {
     return (
-        <h1>HOME PAGE</h1>
+        <>
+            <TakeCareSection/>
+        </>
     );
 }
 
