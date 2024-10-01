@@ -11,9 +11,9 @@ import rightTopImage from "../../assets/top_right.png";
 
 
 const TakeCareSectionStyled = styled.section`
-    margin-top: 60px;
     max-width: 1400px;
     width: 100%;
+    margin: 80px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
