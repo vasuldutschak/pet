@@ -9,11 +9,13 @@ const SectionTextStyled = styled.p`
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     margin: 10px 0;
+    z-index: 100;
+    position: relative;
 `
 
-function SectionText({children}) {
+function SectionText({children,...rest}) {
     return (
-        <SectionTextStyled>{children}</SectionTextStyled>
+        <SectionTextStyled {...rest}>{children}</SectionTextStyled>
     );
 }
 
