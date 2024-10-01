@@ -9,11 +9,13 @@ const SectionTitleStyled = styled.h2`
     margin: 0;
     word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
+    z-index: 100;
+    position: relative;
 `
 
-function SectionTitle({children}) {
+function SectionTitle({children,...rest}) {
     return (
-        <SectionTitleStyled>{children}</SectionTitleStyled>
+        <SectionTitleStyled {...rest}>{children}</SectionTitleStyled>
     );
 }
 
