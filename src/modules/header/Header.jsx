@@ -8,6 +8,9 @@ const StyledHeader = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    margin: 15px auto 10px;
 `
 
 function Header(props) {
