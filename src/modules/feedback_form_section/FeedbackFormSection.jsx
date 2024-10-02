@@ -32,7 +32,7 @@ function FeedbackFormSection(props) {
                 <BackgroundShape image={topLeftBg} alt={'feedback'} left={'-3%'} top={'-13%'}/>
                 <BackgroundShape image={bottomRightBg} alt={'feedback'} right={'-3%'} bottom={'-13%'}/>
             </ContentContainer>
-            <BackgroundShape image={feedbackFormBgSection} alt={'feedback'} left={'0px'} bottom={'-30%'}/>
+            <BackgroundShape image={feedbackFormBgSection} alt={'feedback'} left={'0px'} bottom={'-14%'}/>
         </FeedbackFormSectionStyled>
     );
 };
