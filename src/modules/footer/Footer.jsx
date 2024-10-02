@@ -2,8 +2,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components'
 import linksConfig from '../../linksConfig.jsx'
 import IconLink from "../../components/IconLink.jsx";
-import {useEffect} from "react";
-import footeMenuConfig from "../../footeMenuConfig.jsx";
+import footerMenuConfig from "../../footeMenuConfig.jsx";
 import FooterMenu from "../../components/FooterMenu.jsx";
 import Logo from "../../components/Logo.jsx";
 
@@ -66,12 +65,12 @@ function Footer(props) {
                     </div>
                 </div>
                 <div className="footer_menu_container">
-                    {footeMenuConfig.map(({ title, items }, index) => (
+                    {footerMenuConfig.map(({ title, items }, index) => (
                         <div key={index}>
                             <FooterMenu items={items} title={title} />
 
                             {/* Якщо це останній елемент масиву, рендеримо іконки */}
-                            {index === footeMenuConfig.length - 1 && (
+                            {index === footerMenuConfig.length - 1 && (
                                 <SocialIconsContainer>
                                     {linksConfig.map(({ link, icon: IconComponent }) => (
                                         <IconLink link={link} icon={IconComponent} key={link} size={20} />
