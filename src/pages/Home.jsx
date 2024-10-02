@@ -3,6 +3,7 @@ import ServiceSection from "../modules/service_section/ServiceSection.jsx";
 import PetLoversSection from "../modules/pet_lovers_section/PetLoversSection.jsx";
 import PetsFoodSection from "../modules/accesories_section/PetsFoodSection.jsx";
 import FeedbackSection from "../modules/feedbackSection/FeedbackSection.jsx";
+import FeedbackFormSection from "../modules/feedback_form_section/FeedbackFormSection.jsx";
 
 function Home(props) {
     return (
@@ -12,6 +13,7 @@ function Home(props) {
             <PetLoversSection/>
             <PetsFoodSection/>
             <FeedbackSection/>
+            <FeedbackFormSection/>
         </>
     );
 }
